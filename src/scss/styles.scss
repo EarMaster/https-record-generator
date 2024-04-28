@@ -1,0 +1,43 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+h1, h2 {
+	margin-top: 2rem;
+}
+h3, h4 {
+	margin-top: 1.5rem;
+}
+h5, h6 {
+	margin-top: 1rem;
+}
+
+h3 {
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+#sources {
+	font-size: 0.8rem;
+}
+
+#alpn {
+	width: fit-content;
+}
+.alpn-group {
+	padding-left: 5em;
+	line-height: 2.5;
+}
+.alpn-group > em {
+	display: inline-block;
+	margin-left: -4em;
+	width: 4em;
+}
+
+output {
+	width: 100%;
+}
+output button {
+	height: 3em;
+	width: 3em;
+}
