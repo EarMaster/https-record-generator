@@ -4,7 +4,7 @@ const path = require("path");
 const autoprefixer = require("autoprefixer");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const miniCssExtractPlugin = require("mini-css-extract-plugin");
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+const WebpackFavicons = require("webpack-favicons");
 
 module.exports = {
 	mode: "development",
@@ -21,7 +21,13 @@ module.exports = {
 	plugins: [
 		new HtmlWebpackPlugin({ template: "./src/index.html" }),
 		new miniCssExtractPlugin(),
-		new FaviconsWebpackPlugin({ logo: "./src/logo.png" }),
+		new WebpackFavicons({
+			logo: "./assets/favicon.svg",
+			path: "img",
+			icons: {
+				favicons: true,
+			},
+		}),
 	],
 	module: {
 		rules: [
