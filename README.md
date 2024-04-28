@@ -10,4 +10,6 @@ https://earmaster.github.io/https-record-generator/
 
 
 ## Support
-[!["Buy Me A Coffee"](https://img.buymeacoffee.com/button-api/?text=Poor%20me%20a%20green%20tea&emoji=🍵&slug=EarMaster&button_colour=BD5FFF&font_colour=f0f0f0&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/EarMaster)
+If I have saved you some time and you (or preferably your company) can spare a few dollars to support my work:
+
+[!["Poor me a green tea"](https://img.buymeacoffee.com/button-api/?text=Poor%20me%20a%20green%20tea&emoji=🍵&slug=EarMaster&button_colour=BD5FFF&font_colour=f0f0f0&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/EarMaster)
