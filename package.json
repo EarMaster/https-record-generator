@@ -1,0 +1,8 @@
+{
+	"name": "https-record-generator",
+	"version": "1.0.0",
+	"description": "Automatically tries to detect and generate a fitting HTTPS record for any website.",
+	"repository": "https://github.com/EarMaster/https-record-generator",
+	"author": "Nico Wiedemann <nico.wiedemann@gmail.com>",
+	"license": "MIT"
+}
